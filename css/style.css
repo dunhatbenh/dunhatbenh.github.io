@@ -1,0 +1,284 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 1600px;
+	height: 452px;
+	margin: 0 auto;
+	background: none;
+}
+#header{
+	width: 1600px;
+	height: 78px;
+	background-color: transparent;
+	position: absolute;
+	z-index: 2000;
+} 
+#logo{
+	width: 544px;
+	height: 78px;
+	float:left;
+}
+#logo img{
+	margin-top:16px;
+	margin-left: 332px;
+}
+#menu{
+	width: 1056px;
+	height: 78px;
+	background-color: transparent;
+	float: right;
+}
+#menu ul{
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 282px;
+	
+}
+#menu ul li{
+	float: left;
+	margin-left: 21px;
+	text-decoration: none;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+#menu ul li a:hover{ 
+	color: aqua;
+	text-shadow: 2px;
+}
+#text-ct1{
+	width: 773px;
+	height: 237px;
+	z-index: 3000;
+	margin: 20px;
+	position: absolute;
+	margin-top:227px;
+	margin-left: 414px;
+	text-align: center;
+	color: white;
+}
+#text-ct1 p{
+	margin-top: 60px;
+	line-height: 20px;
+}
+.bt1{
+	margin-top: 51px;
+	background-color: transparent;
+	border: thin solid #75eee6;
+	color: #75eee6;
+	font-weight: bold;
+/*	padding: 15px 32px;*/
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+}
+#content-1{
+	height: 670px;
+	width: 1600px;
+	
+
+}
+#content-1 img{
+	position: absolute;
+	z-index: 1;
+}
+#content-2{
+	height: 403px;
+	width: 1600px;
+	background: white;
+	margin-top: -188px;
+}
+#logo-1{
+	width: 235px;
+	height: 229px;
+	padding-top: 115px;
+	margin-left: 396px;
+	float: left;
+}
+#text-1{
+	margin-left: 730px;
+	padding-top: 90px;
+	width: 542px;
+	height: 192px;
+/*	background: red;*/
+}
+#text-1 h1{
+	font-size: 22pt;
+	
+}
+#text-1 p{
+	font-size: 13pt;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-top:30px;
+	color: grey;
+}
+#bt2{
+	margin-top: 20px;
+	background-color: transparent;
+	border: thin solid #75eee6;
+	color: #75eee6;
+	font-weight: bold;
+/*	padding: 15px 32px;*/
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+}
+#content-3{
+	height: 550px;
+	width: 1600px;
+	position: absolute;
+}
+#tx3{
+	position: absolute;
+	top: 200px;
+	left: 720px;
+	
+}
+#tx3 p{
+	color: white;
+	margin-top: 35px;
+	font-size: 16px;
+}
+#content4{
+	height: 757px;
+	width: inherit;
+	margin-top:  550px;
+	background-color:white;
+}
+#box{
+	width: 941px;
+	height: 501px;
+/*	background: red;*/
+}
+.box-1{
+	width: 311px;
+	height: 252px;
+/*	background: yellow;*/
+	float: left;
+}
+.box-2{
+	width: 317px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	height: 252px;
+/*	background: blue;*/
+	float: left;
+}
+#conten5{
+	height: 712px;
+	width: inherit;
+	background-image: url("../image/2.png");
+	background-size: cover;
+	width: 100%
+}
+.box-3{
+	height: 309px;
+	width: 1000px;
+/*	background: red;*/
+	margin-top: 47px;
+	margin-left: 310px;
+}
+.mini-box{
+	width: 222px;
+	height: inherit;
+	border: thin solid grey;
+	float: left;
+	margin-left: 20px;
+}
+.blank{
+	width: inherit;
+	height: 230px;
+	background: #F2F1F1;
+}
+.content-bl{
+	color: white;
+	width: inherit;
+	height: 79px;
+	margin-top: 19px;
+}
+.content-bl p{
+	margin-top: 12px;
+
+}
+.content-bl b{
+	margin-top: 19px;
+
+}
+#content6{
+	width: inherit;
+	height: 740px;
+	background: white;
+}
+#box-ct6{
+	width: 1600px;
+	height: 400px;
+	padding-top: 157px;
+}
+.b-1{
+	width: 266.6px;
+	height: 200px;
+	background: #b6b6b6;
+	float: left;
+}
+.b-2{
+	width: 266.6px;
+	height: 200px;
+	background: #acacac;
+	float: left;
+}
+.b-3{
+	width: 266.6px;
+	height: 200px;
+	background: #a1a1a1;
+	float: left;
+}
+.b-4{
+	width: 266.6px;
+	height: 200px;
+	background: #8a8a8a;
+	float: left;
+}
+.b-5{
+	width: 266.6px;
+	height: 200px;
+	background: #a4a4a4;
+	float: left;
+}
+.bt1:hover{
+/*	color: #75eee6;*/
+	background: #75eee6;
+	color: white;
+}
+#content7{
+	height: 502px;
+	width: inherit;
+	background: url("../image/3.png");
+	background-size: cover;
+}
+
+/*
+table{
+			border-collapse: collapse;
+			
+		}
+		table td{
+			padding: 10px;
+		}
+*/
+/*
+#t1{
+	margin-top: 20px;
+}*/
